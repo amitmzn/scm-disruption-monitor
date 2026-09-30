@@ -1,0 +1,52 @@
+[
+  {
+    "id": "SC001",
+    "source_type": "Macro News Alert",
+    "alert_text": "Unionized transport workers at the key regional port have initiated a wildcat strike, halting all inbound container unloading of steel and aluminum for the next 48 hours."
+  },
+  {
+    "id": "SC002",
+    "source_type": "Supplier Financial Alert",
+    "alert_text": "Tier-2 automotive fastener supplier filed for Chapter 11 bankruptcy protection, suspending all shipments to North American assembly plants effective immediately."
+  },
+  {
+    "id": "SC003",
+    "source_type": "Plant Operations Alert",
+    "alert_text": "Overnight fire destroyed the main warehouse at a contract electronics manufacturing plant, eliminating finished-goods inventory for three major SKUs."
+  },
+  {
+    "id": "SC004",
+    "source_type": "Environmental Alert",
+    "alert_text": "Severe flooding from a tropical storm inundated a chemical supplier's production campus, halting resin output for at least one week."
+  },
+  {
+    "id": "SC005",
+    "source_type": "Commodity Alert",
+    "alert_text": "Global semiconductor fab capacity constraints extended lead times for industrial microcontrollers to 52 weeks, forcing production planners to re-sequence builds."
+  },
+  {
+    "id": "SC006",
+    "source_type": "Logistics Alert",
+    "alert_text": "Regional trucking carriers declared a sympathy strike, blocking over-the-road freight from three distribution centers serving Midwest manufacturing sites."
+  },
+  {
+    "id": "SC007",
+    "source_type": "Labor Alert",
+    "alert_text": "A skilled welder shortage at a heavy equipment supplier reduced weekly output by 40%, delaying shipments of fabricated chassis assemblies."
+  },
+  {
+    "id": "SC008",
+    "source_type": "Raw Material Alert",
+    "alert_text": "Export restrictions on lithium carbonate tightened battery-grade material availability, raising spot prices and threatening EV battery pack schedules."
+  },
+  {
+    "id": "SC009",
+    "source_type": "Supplier Financial Alert",
+    "alert_text": "Credit rating agency downgraded a packaging supplier to CCC after missed bond payments, triggering covenant reviews across open purchase contracts."
+  },
+  {
+    "id": "SC010",
+    "source_type": "General Business News",
+    "alert_text": "National retail chain reported quarterly earnings above analyst expectations and announced a new loyalty program for suburban shoppers."
+  }
+]
