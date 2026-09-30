@@ -1,0 +1,119 @@
+[
+  {
+    "source_type": "Macro News Alert",
+    "alert_text": "Unionized transport workers at the key regional port have initiated a wildcat strike, halting all inbound container unloading of steel and aluminum for the next 48 hours.",
+    "supply_chain_relevant": true,
+    "relevance_probability": 0.6879,
+    "disruption_category": {
+      "choice": "labor_shortage",
+      "probabilities": {
+        "logistics_transport": 0.176,
+        "supplier_financial": 0.0261,
+        "environmental_hazard": 0.0129,
+        "labor_shortage": 0.785
+      },
+      "probability": 0.785
+    },
+    "severity_index": {
+      "score": 2,
+      "score_raw": 2.2308,
+      "probabilities": {
+        "0": 0.0047,
+        "1": 0.0353,
+        "2": 0.6844,
+        "3": 0.2756
+      }
+    },
+    "trigger_backup_sourcing": {
+      "probability": 0.7997,
+      "trigger": true
+    },
+    "priority": "HIGH",
+    "laya_model": "english",
+    "raw_laya_response": {
+      "model": "laya-rl-agent",
+      "answers": {
+        "is_supply_chain_relevant": {
+          "type": "noul",
+          "noul": 0.6879,
+          "confidence": 0.6879,
+          "answer_confidence": 0.6879,
+          "action": {
+            "act_probability": 1.0
+          }
+        },
+        "disruption_category": {
+          "type": "choice",
+          "choice": "labor_shortage",
+          "probabilities": {
+            "logistics_transport": 0.176,
+            "supplier_financial": 0.0261,
+            "environmental_hazard": 0.0129,
+            "labor_shortage": 0.785
+          },
+          "confidence": 0.5333,
+          "answer_confidence": 0.785,
+          "action": {
+            "act_probability": 1.0
+          }
+        },
+        "severity_index": {
+          "type": "score",
+          "score": 2.2308,
+          "legend": {
+            "0": "0 = minor or negligible operational impact",
+            "1": "1 = low impact; manageable delay with limited operational consequence",
+            "2": "2 = significant disruption; production, inventory or transportation may be affected",
+            "3": "3 = critical disruption; physical goods or critical raw materials are blocked"
+          },
+          "probabilities": {
+            "0": 0.0047,
+            "1": 0.0353,
+            "2": 0.6844,
+            "3": 0.2756
+          },
+          "confidence": 0.4532,
+          "answer_confidence": 0.6844,
+          "action": {
+            "act_probability": 1.0
+          }
+        },
+        "trigger_backup_sourcing": {
+          "type": "noul",
+          "noul": 0.7997,
+          "confidence": 0.7997,
+          "answer_confidence": 0.7997,
+          "action": {
+            "act_probability": 1.0
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 522,
+        "output_tokens": 0,
+        "state_tokens": 52,
+        "state_tokens_dropped": 0,
+        "truncated": false,
+        "truncated_questions": []
+      },
+      "routing": {
+        "model": "english",
+        "repo": "convaiinnovations/laya",
+        "reason": "English Latin text",
+        "detection": {
+          "script": "latin",
+          "script_profile": {
+            "latin": 1.0
+          },
+          "language": "en",
+          "is_english": true,
+          "language_undecided": false,
+          "diacritic_rate": 0.0,
+          "non_latin_fraction": 0.0,
+          "mixed_segment": null
+        },
+        "workflow": null
+      }
+    }
+  }
+]
