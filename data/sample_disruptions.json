@@ -1,0 +1,26 @@
+[
+  {
+    "id": "evt-001",
+    "supplier": "Nordic Components AB",
+    "region": "EU",
+    "summary": "Port strike adds 2-day delay on inbound pallets; backup lane available.",
+    "days_delayed": 2,
+    "affected_skus": ["SKU-1001"]
+  },
+  {
+    "id": "evt-002",
+    "supplier": "Shenzhen Precision Ltd",
+    "region": "APAC",
+    "summary": "Fab shutdown after quality audit; no shipment ETA for controller boards.",
+    "days_delayed": 10,
+    "affected_skus": ["SKU-2200", "SKU-2201", "SKU-2202", "SKU-2203"]
+  },
+  {
+    "id": "evt-003",
+    "supplier": "Gulf Petrochemical Co",
+    "region": "MEA",
+    "summary": "Force majeure on resin feedstock; plant idle until regulatory clearance.",
+    "days_delayed": 21,
+    "affected_skus": ["SKU-9000", "SKU-9001", "SKU-9002", "SKU-9003", "SKU-9004", "SKU-9005"]
+  }
+]
