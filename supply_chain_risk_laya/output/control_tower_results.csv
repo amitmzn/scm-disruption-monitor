@@ -1,2 +1,0 @@
-source_type,alert_text,supply_chain_relevant,relevance_probability,disruption_category,disruption_category_probability,severity_index,backup_sourcing_probability,trigger_backup_sourcing,priority,laya_model
-Macro News Alert,"Unionized transport workers at the key regional port have initiated a wildcat strike, halting all inbound container unloading of steel and aluminum for the next 48 hours.",True,0.6879,labor_shortage,0.785,2,0.7997,True,HIGH,english
