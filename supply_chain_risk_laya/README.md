@@ -113,7 +113,16 @@ Environment overrides (optional):
 
 ## 6. Google Drive + Colab
 
+### Recommended: full notebook
+
+Open **`Supply_Chain_Control_Tower_Laya.ipynb`** in Colab (same folder as this README). It walks through Drive mount, Laya inference, the sample library, optional AG News, charts, saved CSV/JSON, and pytest — without relying on the CLI alone.
+
 1. Copy the entire `supply_chain_risk_laya/` folder to Drive (example: `MyDrive/supply_chain_risk_laya`).
+2. In Colab: **File → Open notebook** → Drive → `Supply_Chain_Control_Tower_Laya.ipynb`, or upload the `.ipynb` from this repo.
+
+### Script-only alternative
+
+1. Copy the project folder to Drive.
 2. Open a Colab notebook and run:
 
 ```python
