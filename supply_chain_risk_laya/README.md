@@ -38,6 +38,7 @@ Core modules:
 
 | File | Role |
 | --- | --- |
+| `Supply_Chain_Control_Tower_Laya.ipynb` | **Colab notebook** — full end-to-end pipeline (recommended) |
 | `supply_chain_risk_laya.py` | CLI, inference, AG News batch, output writers |
 | `config.py` | Thresholds, sample sizes, paths |
 | `sample_alerts.json` | Demo/test alert library |
